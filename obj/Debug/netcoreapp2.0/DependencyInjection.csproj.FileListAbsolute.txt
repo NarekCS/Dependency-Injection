@@ -9,3 +9,14 @@ C:\Users\narek\Documents\Visual Studio 2017\Projects\DependencyInjection\obj\Deb
 C:\Users\narek\Documents\Visual Studio 2017\Projects\DependencyInjection\obj\Debug\netcoreapp2.0\DependencyInjection.AssemblyInfo.cs
 C:\Users\narek\Documents\Visual Studio 2017\Projects\DependencyInjection\obj\Debug\netcoreapp2.0\DependencyInjection.dll
 C:\Users\narek\Documents\Visual Studio 2017\Projects\DependencyInjection\obj\Debug\netcoreapp2.0\DependencyInjection.pdb
+C:\Users\narek\Source\Repos\Dependency-Injection\bin\Debug\netcoreapp2.0\DependencyInjection.deps.json
+C:\Users\narek\Source\Repos\Dependency-Injection\bin\Debug\netcoreapp2.0\DependencyInjection.runtimeconfig.json
+C:\Users\narek\Source\Repos\Dependency-Injection\bin\Debug\netcoreapp2.0\DependencyInjection.runtimeconfig.dev.json
+C:\Users\narek\Source\Repos\Dependency-Injection\bin\Debug\netcoreapp2.0\DependencyInjection.dll
+C:\Users\narek\Source\Repos\Dependency-Injection\bin\Debug\netcoreapp2.0\DependencyInjection.pdb
+C:\Users\narek\Source\Repos\Dependency-Injection\obj\Debug\netcoreapp2.0\DependencyInjection.csprojResolveAssemblyReference.cache
+C:\Users\narek\Source\Repos\Dependency-Injection\obj\Debug\netcoreapp2.0\DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\narek\Source\Repos\Dependency-Injection\obj\Debug\netcoreapp2.0\DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\narek\Source\Repos\Dependency-Injection\obj\Debug\netcoreapp2.0\DependencyInjection.AssemblyInfo.cs
+C:\Users\narek\Source\Repos\Dependency-Injection\obj\Debug\netcoreapp2.0\DependencyInjection.dll
+C:\Users\narek\Source\Repos\Dependency-Injection\obj\Debug\netcoreapp2.0\DependencyInjection.pdb

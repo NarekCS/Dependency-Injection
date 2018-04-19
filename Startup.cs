@@ -19,6 +19,8 @@ namespace DependencyInjection
         {
             //TypeBroker.SetRepositoryType<AlternativeRepository>();
             services.AddTransient<IRepository, MemoryRepository>();
+            services.AddTransient<IModelStorage, DictionaryStorage>();
+            services.AddTransient<ProductTotalizer>();
             services.AddMvc();
         }
 

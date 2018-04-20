@@ -13,18 +13,36 @@ namespace DependencyInjection
 {
     public class Startup
     {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        private IHostingEnvironment env;
+
+        public Startup(IHostingEnvironment hostEnv)
+        {
+            env = hostEnv;
+        }
+
         public void ConfigureServices(IServiceCollection services)
         {
             //TypeBroker.SetRepositoryType<AlternativeRepository>();
-            services.AddTransient<IRepository, MemoryRepository>();
+            //services.AddTransient<IRepository, MemoryRepository>();
+            //services.AddTransient<IRepository>(provider =>
+            //{
+            //    if (env.IsDevelopment())
+            //    {
+            //        var x = provider.GetService<MemoryRepository>();
+            //        return x;
+            //    }
+            //    else
+            //        return new AlternativeRepository();
+            //});
+            //services.AddTransient<MemoryRepository>();
+            //services.AddScoped<IRepository, MemoryRepository>();
+            services.AddSingleton<IRepository, MemoryRepository>();
             services.AddTransient<IModelStorage, DictionaryStorage>();
             services.AddTransient<ProductTotalizer>();
             services.AddMvc();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseStatusCodePages();

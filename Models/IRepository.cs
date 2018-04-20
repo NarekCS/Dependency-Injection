@@ -10,7 +10,7 @@ namespace DependencyInjection.Models
         IEnumerable<Product> Products { get; }
 
         Product this[string name] { get; }
-
+        
         void AddProduct(Product product);
         void DeleteProduct(Product product);
     }
